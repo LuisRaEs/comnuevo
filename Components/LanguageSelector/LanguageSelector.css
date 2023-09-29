@@ -1,0 +1,52 @@
+#langSelector{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 15%;
+    right: 0;
+    position: absolute;
+    padding: 10px 20px 0 0 ;
+    z-index: 3;
+}
+
+#langSelectedOption{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+#langSelectedOption:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+#allLanguages{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.langOption{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.langOption:hover{
+    cursor: pointer;
+    background-color: antiquewhite
+}
+
+.clickable{
+    z-index: 1;
+    position: absolute ;
+    width : 105px;
+    height: 30px;
+}

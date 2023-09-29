@@ -1,0 +1,68 @@
+#Publicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#d9e3f1;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    border: solid 0 transparent;
+    box-shadow: 5px 5px 10px rgba(55,94,148,.2), -5px -5px 10px rgba(255,255,255,.4);
+}
+
+#postHeader{
+    display: flex;
+    background-color: black;
+    border-radius: 30px 30px 0px 0px;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 40px;
+    width: 100%;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+#postHeader span{
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+#postContent{
+    display: flex;
+    padding: 20px;
+    border: solid 0 transparent;
+    box-shadow: 5px 5px 10px rgba(55,94,148,.2), -5px -5px 10px rgba(255,255,255,.4);
+    width: 90%;
+    font-size: 30px;
+}
+#reactionsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 10px;
+    gap:30px;
+}
+#reactionsContainer span{
+    font-size: 20px;
+}
+#reactionsContainer i{
+    font-size: 25px;
+}
+
+.rCont{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#imgcont #imgg{
+    background-image: linear-gradient(45deg, blue, red);;
+    width: 70px;
+    height: 70px;
+}
+
+#newComment{
+    width: 95%;
+    height: 40px;
+}

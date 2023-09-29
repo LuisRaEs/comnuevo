@@ -1,0 +1,66 @@
+#NBar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
+    background-color: black;
+    padding: 5px;
+    z-index: 2;
+}
+
+#ExpandMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 100%;
+}
+#ExpandMenu:hover{
+    opacity: 50%;
+}
+
+#NBar a{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+}
+#NBar span{
+    text-decoration: none;
+}
+.nbbutton{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    padding: 0px 5px; 
+    width: 100%;
+    min-height: 40px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+#NBar .bi {
+    font-size: 30px;
+    width: 30px;
+}
+
+.nbbtext{
+    display:flex;
+    font-size: 20px;
+    width: 150px;
+}
+
+.nbbutton:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
+
+#nbLogo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 200px;
+}

@@ -1,0 +1,18 @@
+#Usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color:#d9e3f1;
+    border-radius: 30px;
+    border: solid 0 transparent;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(55,94,148,.2), -5px -5px 10px rgba(255,255,255,.4);
+}
+
+#nombreCompleto{
+    font-size: 30px;
+    font-weight: 900;
+}
+

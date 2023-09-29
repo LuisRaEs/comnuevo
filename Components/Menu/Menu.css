@@ -1,0 +1,25 @@
+#Menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    list-style-type: none;
+    padding: 5px;
+}
+#Menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+#Menu li:hover{
+    opacity: 75%;
+    border-bottom: solid 3px white ;
+}
+
+#Menu li a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+}

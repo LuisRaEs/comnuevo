@@ -1,0 +1,141 @@
+/* inicio: Estilos para Cards */
+#CardVacaciones:hover{
+    background-color: #9DF2BE;
+    transition: 1s;
+}
+
+#CardFestivos:hover{
+    background-color: #EF978F;
+    transition: 1s;
+}
+#CardOtros:hover{
+    background-color: #AFB0F0;
+    transition: 1s;
+}
+#CardNoJustificados:hover{
+    background-color: #EAE594;
+    transition: 1s;
+}
+/* fin: Estilos para Cards */
+
+
+
+.Cardsrow{
+    display: flex;
+}
+
+/* inicio: Estilos para inputs - Colores */
+.tamColor{
+	border-radius: 4px !important;
+    width: 26px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+#no_visible{
+	position: absolute;
+    width: 26px;
+    height: 26px;
+    opacity: 0;
+    appearance: none;
+    margin-right: -30px !important;
+    z-index: 1;
+} 
+
+.tamIcono{
+	border-radius: 4px !important;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    text-align: center;
+ }
+
+.color1{
+	border: 3px solid #d8c871 !important;
+    background: #d8c871 !important;
+}
+.color2{
+	border: 3px solid #edcd2f !important;
+    background: #edcd2f !important;
+}
+.color3{
+	border: 3px solid #ffbd33!important;
+    background: #ffbd33 !important;
+}
+.color4{
+	border: 3px solid #ff9733!important;
+    background: #ff9733 !important;
+}
+.color5{
+	border: 3px solid #f77633!important;
+    background: #f77633 !important;
+}
+.color6{
+	border: 3px solid #da3d3d!important;
+    background: #da3d3d !important;
+}
+.color7{
+	border: 3px solid #f33b84!important;
+    background: #f33b84 !important;
+}
+.color8{
+	border: 3px solid #e13fa9 !important;
+    background: #e13fa9 !important;
+}
+.color9{
+	border: 3px solid #ba51ca !important;
+    background: #ba51ca !important;
+}
+.color10{
+	border: 3px solid #9d33ad !important;
+    background: #9d33ad !important;
+}
+.color11{
+	border: 3px solid #653d95 !important;
+    background: #653d95 !important;
+}
+.color12{
+	border: 3px solid #1241ab !important;
+    background: #1241ab !important;
+}
+.color13{
+	border: 3px solid #238ede !important;
+    background: #238ede !important;
+}
+.color14{
+	border: 3px solid #13b2dd !important;
+    background: #13b2dd !important;
+}
+.color15{
+	border: 3px solid #49c0b7 !important;
+    background: #49c0b7 !important;
+}
+.color16{
+	border: 3px solid #30c791 !important;
+    background: #30c791 !important;
+}
+.color17{
+	border: 3px solid #33d265 !important;
+    background: #33d265 !important;
+}
+.color18{
+	border: 3px solid #91b54e !important;
+    background: #91b54e !important;
+}
+.color19{
+	border: 3px solid #739830 !important;
+    background: #739830 !important;
+}
+.color20{
+	border: 3px solid #9a8001 !important;
+    background: #9a8001 !important;
+}
+.color21{
+	border: 3px solid #9a5301 !important;
+    background: #9a5301 !important;
+}
+.color22{
+	border: 3px solid #b03209 !important;
+    background: #b03209 !important;
+}
+/* fin: Estilos para inputs - Colores */

@@ -1,0 +1,32 @@
+{
+  "name": "community",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.0.0",
+    "@mantine/dates": "^7.0.0",
+    "@mantine/hooks": "^7.0.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tabler/icons-react": "^2.35.0",
+    "axios": "^1.5.0",
+    "bootstrap-icons": "^1.11.0",
+    "dayjs": "^1.11.10",
+    "next": "^13.5.2-canary.2",
+    "primereact": "^9.6.2",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.30",
+    "postcss-preset-mantine": "^1.7.0",
+    "postcss-simple-vars": "^7.0.1"
+  }
+}

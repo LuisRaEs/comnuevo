@@ -1,0 +1,6 @@
+#principal{
+    display:flex;
+    flex-direction: column;
+    width: 98vw;
+    padding: 50px 10px 0px 70px;
+}

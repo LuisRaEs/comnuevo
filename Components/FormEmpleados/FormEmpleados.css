@@ -1,0 +1,35 @@
+#formEmpleados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 250px;
+}
+
+#headFormEmpleados{
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    width: 100%;
+}
+
+#headFormEmpleados p{
+    font-size: 20px;
+}
+
+
+#botonesFormEmpleados{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:30px
+}
+
+
+.btnCont{
+    display: flex;
+    width: 20%;
+}
+

@@ -1,0 +1,38 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(300px, auto);
+}
+
+#rc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ripple {
+    animation-delay: 0s;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: ripple 2s linear infinite;
+}
+@keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 .7rem rgba(224, 125, 125, 0.2),
+                  0 0 0 1.5rem rgba(224, 125, 125, 0.2),
+                  0 0 0 5rem rgba(224, 125, 125, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 1.5rem rgba(224, 125, 125, 0.2),
+                  0 0 0 4rem rgba(224, 125, 125, 0.2),
+                  0 0 0 8rem rgba(224, 125, 125, 0.2);
+    }
+}
